@@ -199,3 +199,31 @@ Snippet Trigger: stabl
 $5
 ___________________________________
 
+H-024
+HTML Bootstrap Container tag
+Snippet Trigger: co
+
+<div class="container">$1</div>$2
+___________________________________
+
+H-025
+HTML Bootstrap Row tag
+Snippet Trigger: row
+
+<div class="row">$1</div>$2
+___________________________________
+
+H-026
+HTML Bootstrap Container Fluid
+Snippet Trigger: cflu
+
+<div class="container-fluid">$1</div>$2
+___________________________________
+
+H-027
+HTML FontAwesome tag
+Snippet Trigger: fai
+
+<i class="fa fa-${1:name}"></i>
+___________________________________
+
