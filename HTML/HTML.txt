@@ -199,3 +199,10 @@ Snippet Trigger: stabl
 $5
 ___________________________________
 
+H-024
+HTML Bootstrap Container tag
+Snippet Trigger: co
+
+<div class="container">$1</div>$2
+___________________________________
+
