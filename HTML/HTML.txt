@@ -206,3 +206,10 @@ Snippet Trigger: co
 <div class="container">$1</div>$2
 ___________________________________
 
+H-025
+HTML Bootstrap Row tag
+Snippet Trigger: row
+
+<div class="row">$1</div>$2
+___________________________________
+
