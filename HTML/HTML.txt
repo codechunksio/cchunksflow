@@ -214,6 +214,13 @@ Snippet Trigger: row
 ___________________________________
 
 H-026
+HTML Bootstrap Container Fluid
+Snippet Trigger: cflu
+
+<div class="container-fluid">$1</div>$2
+___________________________________
+
+H-027
 HTML FontAwesome tag
 Snippet Trigger: fai
 
