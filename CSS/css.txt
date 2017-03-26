@@ -189,3 +189,20 @@ Snippet Trigger: mqlg
 $2
 
 ---------------------------------
+
+C-17
+CSS Parallax
+Snippet Trigger: plx
+
+.parallax { 
+    background-image: url("${1:image.jpg}");
+    /* Set a specific height */
+    height: $2px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+$3
+---------------------------------
