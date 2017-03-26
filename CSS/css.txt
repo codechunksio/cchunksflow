@@ -94,3 +94,98 @@ top: $2;
 left: $3;
 
 ---------------------------------
+
+C-10
+CSS Media Query Phone (portrait and landscape)
+Snippet Trigger: mqpb
+
+/* Phones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 480px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-11
+CSS Media Query Phone (landscape)
+Snippet Trigger: mqpl
+
+/* Phones (landscape) ----------- */
+@media only screen and (max-width : 321px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-11
+CSS Media Query Phone (portrait)
+Snippet Trigger: mqpp
+
+/* Phones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-12
+CSS Media Query Tablet (portrait and landscape)
+Snippet Trigger: mqtb
+
+/* Tablet (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-13
+CSS Media Query Tablet (portrait)
+Snippet Trigger: mqtp
+
+/* Tablet (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-14
+CSS Media Query Tablet (landscape)
+Snippet Trigger: mqtl
+
+/* Tablet (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-15
+CSS Media Query Desktop
+Snippet Trigger: mqd
+
+@media only screen and (min-width : 1224px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-16
+CSS Media Query Large Screens
+Snippet Trigger: mqlg
+
+@media only screen and (min-width : 1824px) {
+  $1
+}
+$2
+
+---------------------------------
