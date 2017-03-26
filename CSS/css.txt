@@ -37,7 +37,7 @@ C-04
 CSS RGBA
 Snippet Trigger: rgba
 
-rgba($1, $2, $3, $4);$5
+rgba(${1:red#}, ${2:green#}, ${3:blue#}, ${4:opacity});$5
 
 ---------------------------------
 
@@ -71,5 +71,16 @@ background-image:
     to right,
     ${1:color1}, ${1:color2}
   ); // right to left
+
+---------------------------------
+
+C-08
+CSS Font Awesome Background Icon :before
+Snippet Trigger: fab
+
+content: "${1:\code}";
+position: absolute;
+top: $2;
+left: $3;
 
 ---------------------------------
