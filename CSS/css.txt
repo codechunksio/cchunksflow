@@ -94,12 +94,3 @@ top: $2;
 left: $3;
 
 ---------------------------------
-
-C-10
-CSS Border
-Snippet Trigger: bdr
-
-border: ${1:px} ${2:style} ${3:color};
-
----------------------------------
-
