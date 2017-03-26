@@ -84,3 +84,13 @@ top: $2;
 left: $3;
 
 ---------------------------------
+C-09
+CSS Font Awesome Background Icon :after
+Snippet Trigger: faa
+
+content: "${1:\code}";
+position: absolute;
+top: $2;
+left: $3;
+
+---------------------------------
