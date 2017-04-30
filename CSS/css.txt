@@ -206,3 +206,10 @@ Snippet Trigger: plx
 }
 $3
 ---------------------------------
+
+C-18
+CSS Transition
+Snippet Trigger: trans
+
+transition: ${1:background} ${2:.4s} ${3:linear};
+---------------------------------
