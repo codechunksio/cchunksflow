@@ -28,7 +28,7 @@ Snippet Trigger: elink
 ————————————————————————————————
 
 H-03
-HTML Telephone Mobile Link
+HTML Telephone Mobile Linky
 Snippet Trigger: tlink
 
 <a href="tel:${1:number}">Click to Call!</a>$2
