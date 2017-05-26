@@ -68,3 +68,34 @@ Snippet Trigger: footer
 </html>
 
 ————————————————————————————————
+
+WP-05
+WP Parent Enqueue 
+Snippet Trigger: penq
+
+
+————————————————————————————————
+
+WP-06
+WP BlogInfo Name 
+Snippet Trigger: blogname
+
+  <?php bloginfo( 'name' ); ?>
+
+————————————————————————————————
+
+WP-07
+WP BlogInfo Description 
+Snippet Trigger: blogdesc
+
+  <?php bloginfo( 'description' ); ?>
+
+————————————————————————————————
+
+WP-08
+WP BlogInfo Description 
+Snippet Trigger: blogdesc
+
+  <?php bloginfo( 'description' ); ?>
+
+————————————————————————————————
