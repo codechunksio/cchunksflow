@@ -1,0 +1,237 @@
+HTML
+———————————————————————————————
+H-01
+HTML Skeleton
+Snippet Trigger: skel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${1:Page Title}</title>
+  <link href="css/${2:style.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+   $3
+</body>
+</html>
+
+————————————————————————————————
+
+H-02
+HTML Email Link
+Snippet Trigger: elink
+
+<a href="mailto:${1:someone@yoursite.com}?subject=${2:Subject Line of Email}">${3:Email Us}</a>$4
+
+————————————————————————————————
+
+H-03
+HTML Telephone Mobile Link
+Snippet Trigger: tlink
+
+<a href="tel:${1:number}">Click to Call!</a>$2
+
+————————————————————————————————
+
+H-04
+HTML Anchor Link and Target
+Snippet Trigger: jump
+
+<a href=“#${1:NAME}”>$2</a>
+<a name=“${1:NAME}”></a>$3
+
+————————————————————————————————
+
+H-05
+HTML Comment
+Snippet Trigger: com
+
+<!-- $1 -->$2
+
+———————————————————————————————-
+
+H-06
+HTML End Tag Comment
+Snippet Trigger: tcom
+
+<!-- /.$1 -->$2
+
+———————————————————————————————-
+
+H-07
+HTML Script Tag
+Snippet Trigger: scr
+
+<script src="$1"></script>$2
+
+___________________________________
+
+H-08
+HTML Strong Tag
+Snippet Trigger: str
+
+<strong>$1</strong>$2
+
+___________________________________
+
+H-09
+HTML Form Tag
+Snippet Trigger: form
+
+<form action="$1" id="$2" method="${3:GET|POST}">
+$4
+</form>
+___________________________________
+
+H-010
+HTML Form Input Text
+Snippet Trigger: itxt
+
+<input placeholder="$1" type="text" name="$2">$3
+___________________________________
+
+H-011
+HTML Form Textarea
+Snippet Trigger: txta
+
+<textarea rows="$1" cols="$2" placeholder="$3">$4
+___________________________________
+
+H-012
+HTML Form Input Password 
+Snippet Trigger: ipass
+
+<input type="password" name="$1" id="$2">$3
+___________________________________
+
+H-013
+HTML Form Label 
+Snippet Trigger: labl
+
+<label for="$1">$2</label>$3
+___________________________________
+
+H-014
+HTML Form Input Radio 
+Snippet Trigger: irad
+
+<input type="radio" name="$1" value="$2" id="$3">$4
+___________________________________
+
+H-015
+HTML Form Input Checkbox 
+Snippet Trigger: ichec
+
+<input type="checkbox" name="$1" value="$2" id="$3">$4
+___________________________________
+
+H-016
+HTML Form Input Submit 
+Snippet Trigger: isub
+
+<input type="submit" value="$2">$3
+___________________________________
+
+H-017
+HTML Form Select 
+Snippet Trigger: sel
+
+<select name="$1" id="$2">$3</select>$4
+___________________________________
+
+H-018
+HTML Form Select Multiple 
+Snippet Trigger: selm
+
+<select multiple="multiple" name="$1" id="$2">$3</select>$4
+___________________________________
+
+H-019
+HTML Form Option Group
+Snippet Trigger: optg
+
+<optgroup label="$1">$2</optgroup>$3
+___________________________________
+
+H-020
+HTML Form Fieldset
+Snippet Trigger: fields
+
+<fieldset>$1</fieldset>$2
+___________________________________
+
+H-021
+HTML Form Legend
+Snippet Trigger: leg
+
+<legend align="$1">$2</legend>$3
+___________________________________
+
+H-022
+HTML Header
+Snippet Trigger: hdr
+
+<header>$1</header>$2
+___________________________________
+
+H-023
+HTML Footer
+Snippet Trigger: ftr
+
+<footer>$1</footer>$2
+___________________________________
+
+H-024
+HTML Iframe
+Snippet Trigger: ifr
+
+<iframe src="${1:url} width="$2" height="$3">$1</iframe>$4
+___________________________________
+
+H-025
+HTML Simple Table
+Snippet Trigger: stabl
+
+<table>
+  <tr>
+    <td>$1</td>
+    <td>$2</td>
+  </tr>
+  <tr>
+    <td>$3</td>
+    <td>$4</td>
+  </tr>
+</table>
+$5
+___________________________________
+
+H-026
+HTML Bootstrap Container tag
+Snippet Trigger: co
+
+<div class="container">$1</div>$2
+___________________________________
+
+H-027
+HTML Bootstrap Row tag
+Snippet Trigger: row
+
+<div class="row">$1</div>$2
+___________________________________
+
+H-028
+HTML Bootstrap Container Fluid
+Snippet Trigger: cflu
+
+<div class="container-fluid">$1</div>$2
+___________________________________
+
+H-029
+HTML FontAwesome tag
+Snippet Trigger: fai
+
+<i class="fa fa-${1:name}"></i>$2
+___________________________________
+
