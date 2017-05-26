@@ -232,6 +232,6 @@ H-029
 HTML FontAwesome tag
 Snippet Trigger: fai
 
-<i class="fa fa-${1:name}"></i>
+<i class="fa fa-${1:name}"></i>$2
 ___________________________________
 
