@@ -63,18 +63,23 @@ background-image:
 ---------------------------------
 
 C-07
-CSS Background Image
+CSS Background Gradient
 Snippet Trigger: gradr
 
 background-image:
-  linear-gradient(
-    to right,
-    ${1:color1}, ${1:color2}
-  ); // right to left
+  linear-gradient(${1:direction}, ${2:color1}, ${3:color2});$4
 
 ---------------------------------
 
 C-08
+CSS Background Radial Gradient
+Snippet Trigger: radgrad
+
+background: radial-gradient(${1:shape} ${2:size} at ${3:position}, ${4:color1} 0%,${5:color2} 100%);$6 
+
+---------------------------------
+
+C-09
 CSS Font Awesome Background Icon :before
 Snippet Trigger: fab
 
@@ -84,7 +89,7 @@ top: $2;
 left: $3;
 
 ---------------------------------
-C-09
+C-10
 CSS Font Awesome Background Icon :after
 Snippet Trigger: faa
 
@@ -95,7 +100,7 @@ left: $3;
 
 ---------------------------------
 
-C-10
+C-11
 CSS Media Query Phone (portrait and landscape)
 Snippet Trigger: mqpb
 
@@ -108,7 +113,7 @@ $2
 
 ---------------------------------
 
-C-11
+C-12
 CSS Media Query Phone (landscape)
 Snippet Trigger: mqpl
 
@@ -120,7 +125,7 @@ $2
 
 ---------------------------------
 
-C-11
+C-13
 CSS Media Query Phone (portrait)
 Snippet Trigger: mqpp
 
@@ -132,7 +137,7 @@ $2
 
 ---------------------------------
 
-C-12
+C-14
 CSS Media Query Tablet (portrait and landscape)
 Snippet Trigger: mqtb
 
@@ -144,7 +149,7 @@ $2
 
 ---------------------------------
 
-C-13
+C-15
 CSS Media Query Tablet (portrait)
 Snippet Trigger: mqtp
 
@@ -156,7 +161,7 @@ $2
 
 ---------------------------------
 
-C-14
+C-16
 CSS Media Query Tablet (landscape)
 Snippet Trigger: mqtl
 
@@ -168,7 +173,7 @@ $2
 
 ---------------------------------
 
-C-15
+C-17
 CSS Media Query Desktop
 Snippet Trigger: mqd
 
@@ -179,7 +184,7 @@ $2
 
 ---------------------------------
 
-C-16
+C-18
 CSS Media Query Large Screens
 Snippet Trigger: mqlg
 
@@ -190,7 +195,7 @@ $2
 
 ---------------------------------
 
-C-17
+C-19
 CSS Parallax
 Snippet Trigger: plx
 
@@ -207,7 +212,7 @@ Snippet Trigger: plx
 $3
 ---------------------------------
 
-C-18
+C-20
 CSS Transition
 Snippet Trigger: trans
 
