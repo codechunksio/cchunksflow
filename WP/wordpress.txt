@@ -15,3 +15,13 @@ Snippet Trigger: header
 <body <?php body_class(); ?>>
 
 ————————————————————————————————
+
+WP-02
+WP Footer
+Snippet Trigger: footer
+
+  <?php wp_footer(); ?>
+</body>
+</html>
+
+————————————————————————————————
