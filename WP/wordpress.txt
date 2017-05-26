@@ -1,6 +1,49 @@
 WORDPRESS
 ———————————————————————————————
+
 WP-01
+WP CSS
+Snippet Trigger: csshead
+
+/*
+Theme Name:  ${1:ThemeName}
+Theme URI:   ${2:URI}
+Description: ${3:Description}
+Author:      ${4:Author}
+Author URI:  ${5:URIAuthor}
+Version:     ${6:1.0}
+License:     ${7:License}
+License URI: ${8:LicenseURI}
+Tags:        ${9:Tags}
+Text Domain: ${10:TextDomain}
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+————————————————————————————————
+
+WP-02
+WP Footer
+Snippet Trigger: csschildhead
+
+/*
+Theme Name:   ${1:ThemeName}
+Theme URI:    ${2:URI}
+Description:  ${3:Description}
+Author:       ${3:Author}
+Author URI:   ${5:URIAuthor}
+Template:     ${6:ParentThemeName}
+Version:      ${7:1.0}
+License:      ${8:License}
+License URI:  ${9:LicenseURI}
+Tags:         ${10:Tags}
+Text Domain:  ${11:TextDomain}
+*/
+$12
+————————————————————————————————
+
+WP-03
 WP Basic Header
 Snippet Trigger: header
 
@@ -16,7 +59,7 @@ Snippet Trigger: header
 
 ————————————————————————————————
 
-WP-02
+WP-04
 WP Footer
 Snippet Trigger: footer
 
@@ -25,3 +68,16 @@ Snippet Trigger: footer
 </html>
 
 ————————————————————————————————
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
