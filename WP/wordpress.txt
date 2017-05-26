@@ -73,8 +73,6 @@ WP-05
 WP Parent Enqueue 
 Snippet Trigger: penq
 
-<?php
-
 function ${1:name}_enqueue_styles() {
 	
 	// enqueue parent styles
