@@ -37,6 +37,184 @@ C-04
 CSS RGBA
 Snippet Trigger: rgba
 
-rgba($1, $2, $3, $4);$5
+rgba(${1:red#}, ${2:green#}, ${3:blue#}, ${4:opacity});$5
 
+---------------------------------
+
+C-05
+CSS Background Image
+Snippet Trigger: bgi
+
+background: url($1) no-repeat;
+background-size: cover;
+$2
+
+---------------------------------
+
+C-06
+CSS Background Image
+Snippet Trigger: grad
+
+background-image:
+  linear-gradient(
+  ${1:color1}, ${1:color2}
+  ); // assumed top to bottom
+
+---------------------------------
+
+C-07
+CSS Background Gradient
+Snippet Trigger: gradr
+
+background-image:
+  linear-gradient(${1:direction}, ${2:color1}, ${3:color2});$4
+
+---------------------------------
+
+C-08
+CSS Background Radial Gradient
+Snippet Trigger: radgrad
+
+background: radial-gradient(${1:shape} ${2:size} at ${3:position}, ${4:color1} 0%,${5:color2} 100%);$6 
+
+---------------------------------
+
+C-09
+CSS Font Awesome Background Icon :before
+Snippet Trigger: fab
+
+content: "${1:\code}";
+position: absolute;
+top: $2;
+left: $3;
+
+---------------------------------
+C-10
+CSS Font Awesome Background Icon :after
+Snippet Trigger: faa
+
+content: "${1:\code}";
+position: absolute;
+top: $2;
+left: $3;
+
+---------------------------------
+
+C-11
+CSS Media Query Phone (portrait and landscape)
+Snippet Trigger: mqpb
+
+/* Phones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 480px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-12
+CSS Media Query Phone (landscape)
+Snippet Trigger: mqpl
+
+/* Phones (landscape) ----------- */
+@media only screen and (max-width : 321px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-13
+CSS Media Query Phone (portrait)
+Snippet Trigger: mqpp
+
+/* Phones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-14
+CSS Media Query Tablet (portrait and landscape)
+Snippet Trigger: mqtb
+
+/* Tablet (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-15
+CSS Media Query Tablet (portrait)
+Snippet Trigger: mqtp
+
+/* Tablet (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-16
+CSS Media Query Tablet (landscape)
+Snippet Trigger: mqtl
+
+/* Tablet (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-17
+CSS Media Query Desktop
+Snippet Trigger: mqd
+
+@media only screen and (min-width : 1224px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-18
+CSS Media Query Large Screens
+Snippet Trigger: mqlg
+
+@media only screen and (min-width : 1824px) {
+  $1
+}
+$2
+
+---------------------------------
+
+C-19
+CSS Parallax
+Snippet Trigger: plx
+
+.parallax { 
+    background-image: url("${1:image.jpg}");
+    /* Set a specific height */
+    height: $2px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+$3
+---------------------------------
+
+C-20
+CSS Transition
+Snippet Trigger: trans
+
+transition: ${1:background} ${2:.4s} ${3:linear};
 ---------------------------------
